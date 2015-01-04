@@ -1,6 +1,6 @@
 <!--<div id=head>
 <h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red"><?php echo $OJ_NAME?></span></h2>
-</div><!--end head-->
+</div>--><!--end head-->
 <div id=subhead class="navbar navbar-default navbar-fixed-top" >
 	  
 	  <div class="navbar-header">
