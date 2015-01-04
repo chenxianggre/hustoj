@@ -46,7 +46,7 @@
 		<?php if(isset($OJ_DICT)&&$OJ_DICT&&$OJ_LANG=="cn"){?>
 	 
 					  
-	<!--	<span div class='btn '  style="color:1a5cc8" id="dict_status"></span>-->
+		<span div class='btn '  style="color:1a5cc8" id="dict_status"></span>
 					 
 					  <script src="include/underlineTranslation.js" type="text/javascript"></script>
 					  <script type="text/javascript">dictInit();</script>
