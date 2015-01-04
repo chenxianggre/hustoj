@@ -17,26 +17,26 @@
 	  <ul class="nav navbar-nav">
 		    
 	<li>	<!--<a  class='btn'  href="<?php echo $OJ_HOME?>">--><a href="<?php echo $OJ_HOME?>"><!--<i class="icon-home"></i>-->
-		<?php echo $MSG_HOME?></a> </li>
+		<!--<?php echo $MSG_HOME?>-->Home</a> </li>
 		
 	<li>	<!--<a  class='btn <?php if ($url==$OJ_BBS.".php") echo " $ACTIVE";?>'  href="bbs.php">-->
 	        <a href="bbs.php">
-		<!--<i class="icon-comment"></i>--><?php echo $MSG_BBS?></a> </li>
+		<!--<i class="icon-comment"></i>--><!--<?php echo $MSG_BBS?>-->BBS</a> </li>
 		
 	<li>	<!--<a  class='btn <?php if ($url=="problemset.php") echo " $ACTIVE";?>' href="problemset.php">-->
 	        <a href="problemset.php">
-		<!--<i class="icon-question-sign"></i>--><?php echo $MSG_PROBLEMS?></a> </li>
+		<!--<i class="icon-question-sign"></i>--><!--<?php echo $MSG_PROBLEMS?>-->ProblemSet</a> </li>
 		
 	  <!-- <a  class='btn <?php if ($url=="submitpage.php") echo " $ACTIVE";?>' href="submitpage.php">
 		<i class="icon-pencil"></i><?php echo "编辑器"?></a>
 		-->
 	<li><!--	<a  class='btn <?php if ($url=="status.php") echo "  $ACTIVE";?>' href="status.php">-->
 	           <a href="status.php">
-		<!--<i class="icon-check"></i>--><?php echo $MSG_STATUS?></a>  </li>
+		<!--<i class="icon-check"></i>--><!--<?php echo $MSG_STATUS?>-->Status</a>  </li>
 		
 	<li><!--	<a class='btn <?php if ($url=="ranklist.php") echo "  $ACTIVE";?>' href="ranklist.php">-->
 		<a href="ranklist.php">
-		<!--<i class="icon-signal"></i>--><?php echo $MSG_RANKLIST?></a>  </li>
+		<!--<i class="icon-signal"></i>--><!--<?php echo $MSG_RANKLIST?>-->Ranklist</a>  </li>
 		
 	<!--	<a class='btn <?php if ($url=="contest.php") echo "  $ACTIVE";?>'  href="contest.php">
 		<i class="icon-fire"></i><?php echo checkcontest($MSG_CONTEST)?></a>-->
@@ -46,7 +46,7 @@
 		
 	<li>	<!--<a class='btn <?php if ($url==(isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php")) echo " $ACTIVE";?>' href="<?php echo isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php"?>">-->
                <a href="<?php echo isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php"?>" >
-	       <!-- <i class="icon-info-sign"></i>--><?php echo "$MSG_FAQ"?></a>  </li>
+	       <!-- <i class="icon-info-sign"></i>--><!--<?php echo "$MSG_FAQ"?>-->FAQ</a>  </li>
 	 </ul>		
 		<?php if(isset($OJ_DICT)&&$OJ_DICT&&$OJ_LANG=="cn"){?>
 	 
