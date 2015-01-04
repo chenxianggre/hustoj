@@ -2,7 +2,7 @@
 <h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red"><?php echo $OJ_NAME?></span></h2>
 </div>--><!--end head-->
 <div id=subhead class="navbar navbar-default navbar-fixed-top" >
-	  
+	  <div class="container">
 	  <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
           <span class="icon-bar"></span>
@@ -57,6 +57,7 @@
 					  <script type="text/javascript">dictInit();</script>
 		<?php }?>
 	  </div>
+            </div>
 	</div><!--end menu-->
 <div id=profile >
 <script src="include/profile.php?<?php echo rand();?>" ></script>
