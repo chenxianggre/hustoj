@@ -1,10 +1,7 @@
 <span class=center>
 	
 	<?php if(file_exists("setlang.php")){?>
-		<a href=setlang.php?lang=ko>한국어</a>&nbsp;
-		<a href=setlang.php?lang=cn>中文</a>&nbsp;
-		<a href=setlang.php?lang=fa>فارسی</a>&nbsp;
-		<a href=setlang.php?lang=en>English</a>&nbsp;
+		
 		<!--<a href=setlang.php?lang=th>ไทย</a>-->	<br>
 	<?php }?>
 	
