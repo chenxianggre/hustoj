@@ -42,8 +42,9 @@
 		
 	<li>	<a class='btn <?php if ($url==(isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php")) echo " $ACTIVE";?>' href="<?php echo isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php"?>">
                 <i class="icon-info-sign"></i><?php echo "$MSG_FAQ"?></a>  </li>
-		
+	 </ul>		
 		<?php if(isset($OJ_DICT)&&$OJ_DICT&&$OJ_LANG=="cn"){?>
+	 
 					  
 	<!--	<span div class='btn '  style="color:1a5cc8" id="dict_status"></span>-->
 					 
