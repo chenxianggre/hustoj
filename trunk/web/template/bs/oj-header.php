@@ -20,11 +20,11 @@
 		<?php echo $MSG_HOME?></a> </li>
 		
 	<li>	<!--<a  class='btn <?php if ($url==$OJ_BBS.".php") echo " $ACTIVE";?>'  href="bbs.php">-->
-	        < a href="bbs.php">
+	        <a href="bbs.php">
 		<i class="icon-comment"></i><?php echo $MSG_BBS?></a> </li>
 		
 	<li>	<!--<a  class='btn <?php if ($url=="problemset.php") echo " $ACTIVE";?>' href="problemset.php">-->
-	        < a href="problemset.php">
+	        <a href="problemset.php">
 		<i class="icon-question-sign"></i><?php echo $MSG_PROBLEMS?></a> </li>
 		
 	  <!-- <a  class='btn <?php if ($url=="submitpage.php") echo " $ACTIVE";?>' href="submitpage.php">
@@ -35,7 +35,7 @@
 		<i class="icon-check"></i><?php echo $MSG_STATUS?></a>  </li>
 		
 	<li><!--	<a class='btn <?php if ($url=="ranklist.php") echo "  $ACTIVE";?>' href="ranklist.php">-->
-		< a href="ranklist.php">
+		<a href="ranklist.php">
 		<i class="icon-signal"></i><?php echo $MSG_RANKLIST?></a>  </li>
 		
 	<!--	<a class='btn <?php if ($url=="contest.php") echo "  $ACTIVE";?>'  href="contest.php">
