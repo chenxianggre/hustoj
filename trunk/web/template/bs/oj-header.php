@@ -13,7 +13,7 @@
 	  </div>
 	  
 	  <div class="navbar-collapse collapse navbar-responsive-collapse">
-	  <?php $ACTIVE="btn-warning";?>
+	  <!--<?php $ACTIVE="btn-warning";?>-->
 	  <ul class="nav navbar-nav">
 		    
 	<li>	<a  class='btn'  href="<?php echo $OJ_HOME?>"><i class="icon-home"></i>
