@@ -13,10 +13,10 @@
 	  </div>
 	  
 	  <div class="navbar-collapse collapse navbar-responsive-collapse">
-	  <!--<?php $ACTIVE="btn-warning";?>-->
+	  <?php $ACTIVE="btn-warning";?></p>
 	  <ul class="nav navbar-nav">
 		    
-	<li>	<a  class='btn'  href="<?php echo $OJ_HOME?>"><i class="icon-home"></i>
+	<li>	<!--<a  class='btn'  href="<?php echo $OJ_HOME?>">--><a><i class="icon-home"></i>
 		<?php echo $MSG_HOME?></a> </li>
 		
 	<li>	<a  class='btn <?php if ($url==$OJ_BBS.".php") echo " $ACTIVE";?>'  href="bbs.php">
