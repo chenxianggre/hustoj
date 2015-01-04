@@ -1,7 +1,7 @@
-<div id=head>
+<!--<div id=head>
 <h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red"><?php echo $OJ_NAME?></span></h2>
 </div><!--end head-->
-<div id=subhead class="navbar navbar-default" >
+<div id=subhead class="navbar navbar-default navbar-fixed-top" >
 	  
 	  <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
@@ -46,7 +46,7 @@
 		
 	<li>	<!--<a class='btn <?php if ($url==(isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php")) echo " $ACTIVE";?>' href="<?php echo isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php"?>">-->
                <a href="<?php echo isset($OJ_FAQ_LINK)?$OJ_FAQ_LINK:"faqs.php"?>" >
-	        <i class="icon-info-sign"></i><?php echo "$MSG_FAQ"?></a>  </li>
+	       <!-- <i class="icon-info-sign"></i>--><?php echo "$MSG_FAQ"?></a>  </li>
 	 </ul>		
 		<?php if(isset($OJ_DICT)&&$OJ_DICT&&$OJ_LANG=="cn"){?>
 	 
