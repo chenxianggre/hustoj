@@ -3,6 +3,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title><?php echo $view_title?></title>
 	<link rel=stylesheet href='./template/<?php echo $OJ_TEMPLATE?>/<?php echo isset($OJ_CSS)?$OJ_CSS:"hoj.css" ?>' type='text/css'>
+	<link rel="stylesheet" herf="./template/bs/bootstrap.min.css">
 	<script language="javascript" type="text/javascript" src="include/jquery-latest.js"></script>
     <script language="javascript" type="text/javascript" src="include/jquery.flot.js"></script>
     <script type="text/javascript">
