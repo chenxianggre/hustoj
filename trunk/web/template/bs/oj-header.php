@@ -2,18 +2,19 @@
 <h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red"><?php echo $OJ_NAME?></span></h2>
 </div>--><!--end head-->
 <div id=subhead class="navbar navbar-default navbar-fixed-top" >
+	  
 	  <div class="container">
-	  <div class="navbar-header">
+        <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
           </button>
-	  <a class="navbar-brand" href="#">MeetQun</a>
-	  </div>
+    <a class="navbar-brand" href="#">MeetQun</a>
+        </div>
 	  
 	  <div class="navbar-collapse collapse navbar-responsive-collapse">
-	  <?php $ACTIVE="btn-warning";?></p>
+	 <!-- <?php $ACTIVE="btn-warning";?></p>-->
 	  <ul class="nav navbar-nav">
 		    
 	<li>	<!--<a  class='btn'  href="<?php echo $OJ_HOME?>">--><a href="<?php echo $OJ_HOME?>"><!--<i class="icon-home"></i>-->
@@ -57,7 +58,7 @@
 					  <script type="text/javascript">dictInit();</script>
 		<?php }?>
 	  </div>
-            </div>
+            
 	</div><!--end menu-->
 <div id=profile >
 <script src="include/profile.php?<?php echo rand();?>" ></script>
