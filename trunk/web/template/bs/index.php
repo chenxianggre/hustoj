@@ -3,7 +3,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title><?php echo $view_title?></title>
 	<link rel=stylesheet href='./template/<?php echo $OJ_TEMPLATE?>/<?php echo isset($OJ_CSS)?$OJ_CSS:"hoj.css" ?>' type='text/css'>
-	
+	<link rel="stylesheet" href="bootstrap.min.css" type='text/css' >
 	<script language="javascript" type="text/javascript" src="include/jquery-latest.js"></script>
     <script language="javascript" type="text/javascript" src="include/jquery.flot.js"></script>
     <script type="text/javascript">
@@ -43,9 +43,7 @@ backgroundColor: { colors: ["#fff", "#eee"] }
 </script>
 </head>
 <body>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    
-    <script src="../../bootstrap/js/bootstrap.min.js"></script>
+      
 <div id="wrapper">
 	<?php require_once("oj-header.php");?>
 <div id=main>
@@ -59,5 +57,8 @@ backgroundColor: { colors: ["#fff", "#eee"] }
 </div><!--end foot-->
 </div><!--end main-->
 </div><!--end wrapper-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+<script src="../../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
