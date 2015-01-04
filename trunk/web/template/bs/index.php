@@ -45,7 +45,7 @@ backgroundColor: { colors: ["#fff", "#eee"] }
 <body>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
-    <script src="./template/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../../bootstrap/js/bootstrap.min.js"></script>
 <div id="wrapper">
 	<?php require_once("oj-header.php");?>
 <div id=main>
